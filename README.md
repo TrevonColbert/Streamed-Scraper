@@ -1,4 +1,6 @@
-This file script scrape m3u8 stream links from streamed.pk. This script is intended for use on jellyfin servers with Threadfin installed.  Ensure that after initially setting up, filters are used in threadfin (not ignored) and that the group title 'live' is marked as a live event so all channels appear active by default.
+This script scrapes m3u8 stream links from streamed.pk. This script is intended for use on jellyfin servers with Threadfin installed.  Ensure that after initially setting up, filters are used in threadfin (not ignored) and that the group title 'live' is marked as a live event so all channels appear active by default.
+
+Use firefox browser in dark mode in order for this script to work.
   
 Buffer should be set to ffmpeg in threadfin, & playlist origin: 'https://embedsports.top' & referer: 'https://embedsports.top/'.  Set m3u file to be location same as M3UFILE config variable
 
