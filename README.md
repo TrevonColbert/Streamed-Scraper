@@ -21,3 +21,5 @@ Config file should be updated for the following variables:
 	STREAMSAPI = 'https://streamed.pk/api/matches/all-today' #all matches today from api url | API call made to streamed.pk to get matches info
 	
 	THREADFINURL = 'http://192.168.1.100:16977/web/' | url for threadfin web interface
+
+	PYLOCATION = "C:\\Users\\trebo\\Python Projects\\Streamed Scraper" | location of script folder so images and paths can properly be referenced
