@@ -1,5 +1,6 @@
-This file will scrape m3u8 stream links from streamed.pk. This script is intended for use on jellyfin servers with Threadfin installed.  Ensure that after initially setting up, filters are used in threadfin and that the group title live is marked as a live event so all channels appear by default
-  Buffer should be set to ffmpeg in threadfin, & playlist origin should be https://embedsports.top & referer https://embedsports.top/ .  Set m3u file to be location set in m3u file config variable
+This file script scrape m3u8 stream links from streamed.pk. This script is intended for use on jellyfin servers with Threadfin installed.  Ensure that after initially setting up, filters are used in threadfin and that the group title live is marked as a live event so all channels appear by default
+  
+Buffer should be set to ffmpeg in threadfin, & playlist origin should be https://embedsports.top & referer https://embedsports.top/ .  Set m3u file to be location set in m3u file config variable
 
 Required python libraries: requests, pyautogui, pyperclip, datetime, webbrowser, sys
 
