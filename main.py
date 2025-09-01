@@ -6,6 +6,9 @@ import webbrowser
 import pyautogui
 import time
 import sys
+import os
+
+os.chdir(config.PYLOCATION)
 
 #Set regions for searches //
 screen_width, screen_height = pyautogui.size()
